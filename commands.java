@@ -103,6 +103,7 @@ public class Commands {
             int result = Objects.hash(manager, userCommand);
             result = 31 * result + Arrays.hashCode(finalUserCommand);
             return result;
+            System.out.println(123);
         }
     }
 }
